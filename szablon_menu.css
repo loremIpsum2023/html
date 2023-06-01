@@ -1,0 +1,176 @@
+
+const template_pasek_menu =`<nav  class="navbar nav-custom  sticky-top navbar-expand-xl bg-primary-custom  navbar-dark"  >
+  <a class="navbar-brand" href="#"><img  src="images/geek.jpg" style="width:45px;"></a>
+  
+  <button class="navbar-toggler navbar-toggler-custom " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link nav-link-custom " href="home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      
+	  
+	  <li class="nav-item ">
+        <a  class="nav-link nav-link-custom"   href="o_mnie.html">About me</a>
+      </li>
+	  
+	  
+	  
+	  <li class="nav-item ">
+        <a class="nav-link nav-link-custom" href="programowanie.html">Programming</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-custom" href="my_job.html" tabindex="-1" aria-disabled="true">My Job</a>
+      </li>
+	  
+	  <!-- poczatek kodu menu rozwijalnego hobby -->
+	  
+	  <li class="nav-item dropdown">
+        <a class="nav-link nav-link-custom  dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hobby
+        </a>
+        
+	     <div class="dropdown-menu  dropdown-menu-custom" id="glowny" aria-labelledby="navbarDropdown">
+         
+		 <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Snowboard</a>
+            <div class=" dropdown-menu dropdown-menu-custom" id="przelacz1" aria-labelledby="dropdownMenuLink1">
+            <a class="dropdown-item dropdown-item-custom" href="snowboard_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="snowboard_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="snowboard_articles.html">Articles</a>
+           </div>
+         </div>
+		  
+		  
+          <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Skiing</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz2" aria-labelledby="dropdownMenuLink2">
+            <a class="dropdown-item dropdown-item-custom" href="skiing_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="skiing_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="skiing_articles.html">Articles</a>
+		   </div>
+         </div>
+		  
+		  <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Skateboard</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz8" aria-labelledby="dropdownMenuLink8">
+            <a class="dropdown-item dropdown-item-custom" href="skateboard_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="skateboard_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="skateboard_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  <div class="dropdown-divider"></div>
+          
+		  
+		  
+		  <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Archery</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz3" aria-labelledby="dropdownMenuLink3">
+            <a class="dropdown-item dropdown-item-custom" href="archery_films.html">Films</a>
+			<a class="dropdown-item dropdown-item-custom" href="archery_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="archery_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  <div class="dropdown-divider"></div>
+		  
+		  
+          <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Diving</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz4" aria-labelledby="dropdownMenuLink4">
+            <a class="dropdown-item dropdown-item-custom" href="diving_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="diving_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="diving_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  <div class="dropdown-divider"></div>
+		  
+		  
+		  <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sailing</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz5" aria-labelledby="dropdownMenuLink5">
+            <a class="dropdown-item dropdown-item-custom" href="sailing_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="sailing_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="sailing_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  <div class="dropdown-divider"></div>
+		  
+		  
+		  <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Climbing</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz6" aria-labelledby="dropdownMenuLink6">
+            <a class="dropdown-item dropdown-item-custom" href="wspinaczka_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="wspinaczka_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="wspinaczka_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  <div class="dropdown-divider"></div>
+		  
+		  
+          <div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paragliding</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz7" aria-labelledby="dropdownMenuLink7">
+            <a class="dropdown-item dropdown-item-custom" href="paragliding_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="paragliding_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="paragliding_articles.html">Articles</a>
+		   </div>
+          </div>
+		  
+		  
+		  
+		  
+		<div class="dropdown dropright">
+           <a class=" dropdown-item dropdown-item-custom dropdown-toggle"  href="#" role="button" id="dropdownMenuLink8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gliding</a>
+           <div class=" dropdown-menu dropdown-menu-custom" id="przelacz8" aria-labelledby="dropdownMenuLink8">
+            <a class="dropdown-item dropdown-item-custom" href="gliding_films.html">Films</a>
+            <a class="dropdown-item dropdown-item-custom" href="gliding_photos.html">Photos</a>
+            <a class="dropdown-item dropdown-item-custom" href="gliding_articles.html">Articles</a>
+		   </div>
+          </div>
+		
+		
+		
+		</div>
+      
+	  </li>
+      
+	  <!-- koniec kodu menu rozwijalnego hobby -->
+      
+      <li class="nav-item nav-link-custom ">
+        <a class="nav-link nav-link-custom" href="kontakt.html">Contact</a>
+      </li>
+    
+	  <li class="nav-item nav-link-custom ">
+        <a class="nav-link nav-link-custom" href="login.html">Login</a>
+      </li>
+	
+	
+	
+	</ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav> `;
+
+
+document.getElementById('pasek_menu').innerHTML = template_pasek_menu;
+
+
+
+
+
+
+
+
+
+
