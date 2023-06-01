@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang ="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap 4 CDN ----- copied from w3school -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+<link href ="style_pasek_menu.css" rel="stylesheet" type="text/css"/>
+<link href ="style_1.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+<main id="pasek_menu"></main>
+
+         <div class="container-fluid" style="hyphens:auto;">
+         <img src="ja_3.jpg" class="img-fluid" alt="Me" id="img_l" style="float:left;text-align:justify;margin-right:6px;margin-top:16px;"/>
+
+		 <p>Hey,Welcome to my website hosted on Amazon Web Services</p>
+         <p>My name is Lorem Ipsum</p>
+         <p>I'm currently based in Lorem Ipsum  and i work in IT .
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+		 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+		 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		 It has survived not only five centuries, but also the leap into electronic typesetting, 
+		 remaining essentially unchanged. It was popularised in the 1960s with the release of 
+		 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+		 software like Aldus PageMaker including versions of Lorem Ipsum.
+         The space that also defines me in some way.I am happy,that I can present all my work,ideas,hobby and so on to you, so feel free to browse all my stuff here.
+         Happy reading.
+         </p>
+         <footer>
+         Made with <span title="love">❤️</span> and geek by Lorem Ipsum
+         </footer>
+
+         </div><!--container-->
+
+<script src="szablon_menu.js"></script> 
+<!--poczatek skryptu odpowiadający za menu rozwijalne--> 
+  <script>
+
+
+
+
+document.getElementById("dropdownMenuLink1").addEventListener("click", function(e) {
+
+<!-- document.querySelector("#dropdownMenuLink2").style.backgroundColor = "yellow"; -->
+
+e.stopImmediatePropagation();
+$("#przelacz1").toggle();
+<!-- $("#glowny").show(); -->
+<!-- $("#glowny").stop(); -->
+<!-- document.getElementById("dropdownMenuLink2").classList.toggle("mystyle");  -->
+<!-- stopImmediatePropagation(); -->
+
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+
+
+
+
+
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink2").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz2").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink3").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz3").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+
+
+
+
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink4").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz4").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink5").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz5").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink6").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz6").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz7").hide();
+$("#przelacz8").hide();
+
+
+
+
+e.stopImmediatePropagation();
+
+
+});
+
+
+document.getElementById("dropdownMenuLink7").addEventListener("click", function(e) {
+
+
+e.stopImmediatePropagation();
+$("#przelacz7").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz8").hide();
+
+
+
+e.stopImmediatePropagation();
+
+
+});
+
+document.getElementById("dropdownMenuLink8").addEventListener("click", function(e) {
+
+<!-- document.querySelector("#dropdownMenuLink2").style.backgroundColor = "yellow"; -->
+e.stopImmediatePropagation();
+$("#przelacz8").toggle();
+
+$("#przelacz1").hide();
+$("#przelacz2").hide();
+$("#przelacz3").hide();
+$("#przelacz4").hide();
+$("#przelacz5").hide();
+$("#przelacz6").hide();
+$("#przelacz7").hide();
+
+
+
+
+e.stopImmediatePropagation();
+
+
+});
+
+
+
+</script>
+<!--koniec skryptu odpowiadającego za menu rozwijalne--> 
+  
+
+
+</body>
+</html>
